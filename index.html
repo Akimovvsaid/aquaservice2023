@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AQUA - SERVICE</title>
+    
+    <!-- Титульный заголовок -->
+    <link rel="icon" href="./image/Иконки/logo.png" type="image/png">
+
+    <!-- Подключение - font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap">
+
+  <!-- Подключение другие ресурсы -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous"></script>
+
+    <!-- Подключение - CSS файла  -->
+    
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- Меню (навигатор сайта) (Блок)-->
+<header class="header">
+
+    <a href="#" class="logo">AQUA <img src="./image/Иконки/logo.png" alt="" class="icons-logo"> SERVICE </a>
+
+    <nav class="navbar">
+        <a href="#home" class="active">Главная</a>
+        <a href="#products">R.O.S</a>
+        <a href="#about">О нас</a>
+        <a href="#arrivals">Сотрудники</a>
+        <a href="#contact">Сделать анализ</a>
+        <a href="#footer">Контакты</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-user"></a>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" placeholder="search here..." id="input-box">
+        <label for="input-box" class="fas fa-search"></label>
+    </form>
+
+</header>
+<!-- Меню (навигатор сайта) (Конец - Блока)-->
+
+
+<!-- Главный (шапка сайта) (Блок) -->
+<section class="home" id="home">
+
+    <div class="swiper home-slider">
+
+        <div class="swiper-wrapper">
+            <!-- <video id="video-background" autoplay muted loop> -->
+                <!-- <source src="./video/IMG_0360.mp4" type="video/mp4"> -->
+                <!-- Добавьте другие форматы видео для кросс-браузерной поддержки -->
+              <!-- </video> -->
+
+            <div class="swiper-slide box" style="background: url(./image/Шапка/woman-drinking-from-water-glass-while-typing-at-her-laptop-in-staying-hydrated-while-working-from-home.jpg);">
+                <div class="content">
+                    <h3>AQUA SERVICE </h3>
+                    <p>Работаем для вашего здоровья и комфорта!</p>
+                    <div class="button">
+                        <a href="#about" class="btn">Узнать подробнее</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box" style="background: url(image/Шапка/a-kitchen-countertop-and-a-sink-with-dishes.jpg);">
+                <div class="content">
+                    <h3>Выбирайте на свой вкус!</h3>
+                    <p>У нас широкий ассортимент систем очистки воды</p>
+                    <div class="button">
+                        <a href="#products" class="btn">Узнать подробнее</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box" style="background: url(image/Шапка/photo_2023-06-09_13-59-20.jpg);">
+                <div class="content">
+                    <h3>Профессиональные сотрудники</h3>
+                    <p>Вы можете проверить свою питьевую воду бесплатно... </p>
+                    <div class="button">
+                        <a href="#arrivals" class="btn">Узнать подробнее</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+<!-- Главный (шапка сайта) (Конец - Блока) -->
+
+
+
+<!-- Фильтр очистки воды R.O.S (товары и услуги и цены) (Блок) -->
+<section class="products" id="products">
+
+    <h1 class="heading">(R.O.S) <span style="color: #54f7c0;">Фильтр очистки воды</span> </h1>
+
+    <div class="swiper products-slider" data-aos="zoom-in">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#contact" class="fas fa-shopping-cart"></a>
+                    <a href="./image/R.O.S/taiwan.jpg" data-fancybox data-caption="<a target='_blank' href='http://tlsitlicey.000webhostapp.com/'><h1>Reverse Osmosys System (Тайвань)</h1></a>" class="fas fa-eye"></a>
+                    <a href="mailto:почта@example.com" class="fas fa-share"></a>
+                </div>   
+
+                <div class="image">
+                    <a href="./image/R.O.S/taiwan.jpg" data-fancybox data-caption="<a target='_blank' href='http://tlsitlicey.000webhostapp.com/'><h1>Reverse Osmosys System (Тайвань)</h1></a>">
+                        <img src="./image/R.O.S/taiwan.jpg" alt="">
+                    </a>
+                </div>
+                    
+                <div class="content">
+                    <h3>R.O.S (Тайвань)</h3>
+                    <p class="ros-service">
+                        Гарантия : нет <br>
+                        Обслуживания : нет 
+                    </p>
+                    <div class="price"> $251,17 <span>$95.99</span></div>
+                    <div class="button">
+                        <a href="#contact" class="btn">Узнать подробнее</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#contact" class="fas fa-shopping-cart"></a>
+                    <a href="./image/R.O.S/econom-1.jpg" data-fancybox data-caption="<a target='_blank' href='http://tlsitlicey.000webhostapp.com/'><h1>Reverse Osmosys System (Турция)</h1></a>" class="fas fa-eye"></a>
+                    <a href="mailto:почта@example.com" class="fas fa-share"></a>
+                </div>
+                
+                <div class="image">
+                    <a href="./image/R.O.S/econom-1.jpg" data-fancybox data-caption="<a target='_blank' href='http://tlsitlicey.000webhostapp.com/'><h1>Reverse Osmosys System (Турция)</h1></a>">
+                        <img src="./image/R.O.S/econom-1.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="content">
+                    <h3>R.O.S (Турция)</h3>
+                    <p class="ros-service">
+                        Гарантия : 1-год <br>
+                        Обслуживания : 15-лет 
+                    </p>
+                    <div class="price"> $433,84 <span>$490.84</span></div>
+                    <div class="button">
+                        <a href="#about" class="btn">Узнать подробнее</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#contact" class="fas fa-shopping-cart"></a>
+                    <a href="./image/R.O.S/china.jpg" data-fancybox data-caption="<a target='_blank' href='http://tlsitlicey.000webhostapp.com/'><h1>Reverse Osmosys System (Китай)</h1></a>" class="fas fa-eye"></a>
+                    <a href="mailto:почта@example.com" class="fas fa-share"></a>
+                </div>
+
+                <div class="image">
+                    <a href="./image/R.O.S/china.jpg" data-fancybox data-caption="<a target='_blank' href='http://tlsitlicey.000webhostapp.com/'><h1>Reverse Osmosys System (Китай)</h1></a>">
+                        <img src="./image/R.O.S/china.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="content">
+                    <h3>R.O.S (Китай)</h3>
+                    <p class="ros-service">
+                        Гарантия : нет <br>
+                        Обслуживания : нет 
+                    </p>
+                    <div class="price"> $137.46 <span>$150.46</span></div>
+                    <div class="button">
+                        <a href="#about" class="btn">Узнать подробнее</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#contact" class="fas fa-shopping-cart"></a>
+                    <a href="./image/R.O.S/bigROS.jpeg" data-fancybox data-caption="<a target='_blank' href='http://tlsitlicey.000webhostapp.com/'><h1>BIG Reverse Osmosys System (Турция)</h1></a>" class="fas fa-eye"></a>
+                    <a href="mailto:почта@example.com" class="fas fa-share"></a>    
+                </div>
+
+                <div class="image">
+                    <a href="./image/R.O.S/bigROS.jpeg" data-fancybox data-caption="<a target='_blank' href='http://tlsitlicey.000webhostapp.com/'><h1>BIG Reverse Osmosys System (Турция)</h1></a>">
+                        <img src="./image/R.O.S/bigROS.jpeg" alt="">
+                    </a>
+                </div>
+                <div class="content">
+                    <h3>BIG-R.O.S (Турция)</h3>
+                    <p class="ros-service">
+                        Гарантия : 1-год <br>
+                        Обслуживания : 15-лет 
+                    </p>
+                    <div class="price"> $859,12 <span>$905.99</span></div>
+                    <div class="button">
+                        <a href="#arrivals" class="btn">Узнать подробнее</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- Фильтр очистки воды R.O.S (товары и услуги и цены) (Конец - Блока) -->
+
+
+
+<!-- История о Компании (AQUA SERVICE) (Блок) -->
+<section class="about" id="about">
+
+    <div class="content" data-aos="fade-right">
+        <h3 style="color: #54f7c0;">О нас</h3>
+        <p>
+            <strong style="font-size: 24px;">AquaService</strong> - инновационная компания, специализирующаяся на разработке и поставке передовых систем фильтрации и очистки воды. Мы основаны в мае 2018 года с целью предоставить нашим клиентам доступ к высококачественной и безопасной питьевой воде. Мы постоянно стремимся к совершенству и инновациям, чтобы наши клиенты могли наслаждаться чистой и свежей водой, способствующей их здоровью и благополучию.
+        </p>
+        <a href="./Документы/Проблемы воды в КР.pdf" class="btn" target="_blank">Все проблемы воды в КР?</a>
+    </div>
+</section>
+<!-- История о Компании (AQUA SERVICE) (Конец - Блока) -->
+<br>
+<br>
+<br>
+<br>
+<!-- Сотрудники AQUA SERVICE (Блок)  -->
+<section class="blogs" id="arrivals">
+
+    <h1 class="heading"> Отдел<span style="color: #54f7c0;"> Управления</span></h1>
+
+    <div class="box-container">
+
+        <div class="box" data-aos="fade-right">
+            <div class="image">
+                <img src="image/Сотдрудники/nuke.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Ыдырысов Нурзамат Ыдырысович</h3>
+                <p>Мы ценим и признаем ваши усилия, таланты и вклад в нашу команду. Ваши достижения будут отмечены и поощрены.</p>
+                <a href="https://www.instagram.com/osmonov_nurzamat/" class="btn">Подписаться</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i>В этой сфере 13 года </a>
+                    <a href="#"> <i class="fas fa-user"></i> Директор </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-down">
+            <div class="image">
+                <img src="image/Сотдрудники/Изображение WhatsApp 2023-06-24 в 22.40.41.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Туралиева Гульзат Курманбекова</h3>
+                <p>Мы предоставляем вам возможности для постоянного роста и профессионального развития.</p>
+                <a href="https://www.instagram.com/osmonov_nurzamat/" class="btn">Подписаться</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> В этой сфере 5 месяцев </a>
+                    <a href="#"> <i class="fas fa-user"></i> Бухгалтерия </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-left">
+            <div class="image">
+                <img src="image/Сотдрудники/photo_2023-06-16_14-12-42.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Таалайбек кызы <br> Аэлита</h3>
+                <p>Мы ценим силу командной работы и сотрудничества. <br> <br></p>
+                <a href="https://www.instagram.com/osmonov_nurzamat/" class="btn" target="_blank"><i class="fas fa-instagram" ></i>Подписаться</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> В этой сфере 6 года </a>
+                    <a href="#"> <i class="fas fa-user"></i> Руководитель</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 class="heading"> Отдел<span style="color: #54f7c0;"> Продажа</span></h1>
+
+    <div class="box-container">
+
+        <div class="box" data-aos="fade-left">
+            <div class="image">
+                <img src="image/Сотдрудники/photo_2023-06-24_22-35-53.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Ыдырыс уулу <br> Нуржан</h3>
+                <p>Мы стремимся делать значимую работу, которая имеет реальное влияние на жизни людей. Ваша работа будет способствовать улучшению качества жизни и здоровья наших клиентов.</p>
+                <a href="#" class="btn">Подписаться</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> В этой сфере 9 года </a>
+                    <a href="#"> <i class="fas fa-user"></i> Дилер </a>
+                </div>
+            </div>
+        </div>
+        <div class="box" data-aos="fade-left">
+            <div class="image">
+                <img src="image/Сотдрудники/Изображение WhatsApp 2023-06-24 в 21.40.25.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Маратов Ильгиз Рамисович</h3>
+                <p>Мы признаем важность баланса между работой и личной жизнью. Мы стремимся создать гибкую и поддерживающую рабочую среду, которая позволяет вам достигать профессиональных целей</p>
+                <a href="#" class="btn">Подписаться</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> В этой сфере 1 года </a>
+                    <a href="#"> <i class="fas fa-user"></i> Дилер </a>
+                </div>
+            </div>
+        </div>
+        <div class="box" data-aos="fade-left">
+            <div class="image">
+                <img src="image/Сотдрудники/photo_2023-06-24_22-39-33.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Акимов Арген Урматбекович</h3>
+                <p>Мы строим отношения на основе доверия и взаимного уважения. Мы верим в вас и даем вам возможность принимать ответственность за свои задачи и принимать важные решения.</p>
+                <a href="#" class="btn">Подписаться</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> В этой сфере 2.5 года </a>
+                    <a href="#"> <i class="fas fa-user"></i> Дилер </a>
+                </div>
+            </div>
+        </div>
+        <div class="box" data-aos="fade-left">
+            <div class="image">
+                <img src="image/Сотдрудники/photo_2023-06-24_22-37-56.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Сариева Баянсулуу Амангелдиевна</h3>
+                <p>Мы создаем вдохновляющую и стимулирующую среду, где вы будете увлечены своей работой и иметь , большую возможность преодолевать новые вызовы.</p>
+                <a href="#" class="btn">Подписаться</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> В этой сфере начинающий </a>
+                    <a href="#"> <i class="fas fa-user"></i> Дилер </a>
+                </div>
+            </div>
+        </div>
+        <div class="box" data-aos="fade-left">
+            <div class="image">
+                <img src="image/Сотдрудники/farhat.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Таласбеков Фархад Таласбекович</h3>
+                <p>Наша команда экспертов всегда готова помочь вам выбрать наиболее подходящий фильтр для ваших нужд и решить любые вопросы, связанные с использованием наших продуктов.</p>
+                <a href="#" class="btn">Подписаться</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> В этой сфере начинающий </a>
+                    <a href="#"> <i class="fas fa-user"></i> Дилер </a>
+                </div>
+            </div>
+        </div>
+        <div class="box" data-aos="fade-left">
+            <div class="image">
+                <img src="image/Сотдрудники/ramis.jpeg" alt="">
+            </div>
+            <div class="content">
+                <h3>Жолчубеков Рамис Эрнисович</h3>
+                <p>Мы постоянно инвестируем в исследования и разработки, чтобы предлагать передовые технологии в области. Наши фильтры обнаруживают инновационную фильтрацию, которая обнаруживает удаление загрязнений.</p>
+                <a href="#" class="btn">Подписаться</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> В этой сфере начинающий </a>
+                    <a href="#"> <i class="fas fa-user"></i> Дилер </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 class="heading"> Отдел<span style="color: #54f7c0;"> Сервисы</span></h1>
+    <div class="box-container">
+
+        <div class="box" data-aos="fade-left">
+            <div class="image">
+                <img src="image/Сотдрудники/mairambek.jpeg" alt="">
+            </div>
+            <div class="content">
+                <h3>Калысов Майрамбек Аширович</h3>
+                <p>Мы обладаем обширным опытом и профессиональными навыками, чтобы обеспечить качественное обслуживание вашего фильтра воды. Мы знаем все особенности и функции наших продуктов, и готовы решить любые технические проблемы. - регулярное обслуживание:</p>
+                <a href="#" class="btn">Подписаться</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i>В этой сфере 1.5 года</a>
+                    <a href="#"> <i class="fas fa-user"></i> Сервис</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- Сотрудники AQUA SERVICE (Конец - Блока) -->
+
+
+
+<!-- Клиентские данные (Блок) -->
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>Бесплатный</span> Консультация </h1>
+
+    <div class="row">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d721.1650056807737!2d72.24960760152197!3d42.51833681175876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38a15d86fd6c904b%3A0xe092158ea971bc22!2z0JrQsNGA0Lsg0LzQsNGA0LrRgSDQtNC-0Lw0Mw!5e0!3m2!1sru!2skg!4v1687726459021!5m2!1sru!2skg" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+
+        <form action="">
+            <h3 data-aos="zoom-in">Первую очередь пройдите этот шаг!</h3>
+            <p class="ros-service">Оставьте свои данные , пройдите бесплатную консультацию!</p>
+            <input data-aos="zoom-in" type="text" placeholder="Имя" class="box">
+            <input data-aos="zoom-in" type="email" placeholder="Электронный почта" class="box">
+            <input data-aos="zoom-in" type="number" placeholder="Телефон номер" class="box">
+            <textarea data-aos="zoom-in" placeholder="Отправьте сообщение" class="box" cols="30" rows="10"></textarea>
+            <input data-aos="zoom-in" type="submit" value="Отправить" class="btn">
+        </form>
+
+    </div>
+
+</section>
+<!-- Клиентские данные ( Конец - Блока) -->
+
+
+
+<!-- Отзывы наших клиентов (Блок)  -->
+<section class="products" id="products">
+
+    <h1 class="heading">Отзывы<span> Наших любимых клиентов</span> </h1>
+
+    <div class="swiper products-slider2" data-aos="zoom-in">
+
+        <div class="swiper-wrapper">
+            <!-- <video controls loop width="1000">
+                <source src="./video/реклама.mp4">
+            </video> -->
+            <div class="container-video">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <a class="popup-youtube btn" href="./video/реклама.mp4"><span class="fa fa-play"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<!-- Отзывы наших клиентов (Конец - Блока) -->
+
+ 
+
+<!-- Подвал нашего сайта (Блок)  -->
+<section class="footer" id="footer">
+
+    <div class="box-container">
+
+        <div class="box" data-aos="fade-right">
+            <h3>Таласской область</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Талас району </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Бакай - Ата району </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Кара - Буура району </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Манас району</a>
+        </div>
+
+        <div class="box" data-aos="fade-down">
+            <h3>Меню</h3>
+            <a href="#home"> <i class="fas fa-arrow-right"></i> Главная </a>
+            <a href="#products"> <i class="fas fa-arrow-right"></i> R.O.S </a>
+            <a href="#about"> <i class="fas fa-arrow-right"></i> О нас </a>
+            <a href="#arrivals"> <i class="fas fa-arrow-right"></i> Сотдрудники </a>
+            <a href="#contact"> <i class="fas fa-arrow-right"></i> Сделать Анализ </a>
+            <a href="#footer"> <i class="fas fa-arrow-right"></i> Контакты </a>
+        </div>
+
+        <div class="box" data-aos="fade-up">
+            <h3>Cвяжитесь с нами!</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +996 505 985 024 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +996 707 888 383 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> aquaservice@gmail.com </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Kyrgyzstan, Talas </a>
+        </div>
+
+        <div class="box" data-aos="fade-left">
+            <h3>Из Соц.сетей</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> Facebook </a>
+            <a href="https://www.instagram.com/aquaservice.talas/"> <i class="fab fa-instagram"></i> Instagram </a>
+            <a href="#"> <i class="fab fa-whatsapp"></i> WhatsApp</a>
+        </div>
+
+        <div class="box" data-aos="fade-left">
+            <h3>Мы работаем с этими банками</h3>
+            <a href="#"> <i>DC</i> DosCredo Bank </a>
+            <a href="#"> <i>BTB</i> Bai Tushum Bank</a>
+            <a href="#"> <i>AKB</i> Kyrgyzstan Bank </a>
+            <a href="#"> <i>RSK</i> RSK Bank </a>
+        </div>
+
+    </div>
+
+    <div class="credit"> Автор сайта : <span>Akimov Argen - WebDeveloper2023</span> | все права защищены</div>
+
+</section>
+<!-- Конец подвала -->
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file links  -->
+<script src="js/script.js"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+      delay:400,
+      duration:800
+  });
+
+
+</script>
+<script>
+    function initMap() {
+      // Координаты указанного адреса
+      var addressLatLng = { lat: 51.5074, lng: -0.1278 };
+    
+      // Создание карты
+      var map = new google.maps.Map(document.getElementById('map'), {
+        center: addressLatLng,
+        zoom: 15
+      });
+    
+      // Создание маркера на указанном адресе
+      var marker = new google.maps.Marker({
+        position: addressLatLng,
+        map: map,
+        title: 'Место на карте'
+      });
+    }
+    </script>
+    <script src="https://www.google.com/maps/place/Talas,+Kyrgyzstan/@42.5246127,72.222812,14.86z/data=!4m6!3m5!1s0x38a15c82094a401b:0xef5a29b84864c140!8m2!3d42.5317628!4d72.2304571!16zL20vMDRyMHhi?hl=en&entry=ttu" async defer></script>
+</body>
+</html>
